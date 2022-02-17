@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+
+/* HEADER */
+
+.header-contato-bg {
+    color: #fff;
+    background: #122ab2;
+}
+
+.header-contato {
+    background: #122ab2;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 12px 8px;
+
+}
+
+.header-contato p,
+.header-contato a {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-nav {
+    background: #2c70ff;
+}
+
+.nav-container {
+    background: #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 8px;
+    color: #fff;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container h1 {
+    font-size: 2.3rem;
+}
+
+.nav-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav-lista li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
