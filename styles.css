@@ -212,7 +212,7 @@ body img {
 .planos h2 {
     font-size: 3rem;
     color: #a4a4a4;
-    padding: 20px 10px 15px 10px;
+    padding-top: 20px;
     text-align: center;
     border-bottom: 4px solid #fff;
 }
@@ -229,6 +229,7 @@ body img {
 .planos span::before {
     content: "R$";
     padding-top: 8px;
+    padding-right: 4px;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -282,8 +283,64 @@ body img {
     border: 4px solid #222;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 800px) {
     .planos {
         padding: 20px;
     }
+}
+
+/* CARACTERISTICAS */
+
+.caracteristicas {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px 16px;
+}
+
+.caracteristicas-pink,
+.caracteristicas-purple,
+.caracteristicas-blue {
+    flex: 1;
+    flex-basis: 250px;
+}
+
+.caracteristicas-pink h2::before {
+    content: "";
+    display: inline-block;
+    height: 28px;
+    margin-right: 8px;
+    width: 8px;
+    background: #f9265e;
+}
+
+.caracteristicas-purple h2::before {
+    content: "";
+    display: inline-block;
+    height: 28px;
+    margin-right: 8px;
+    width: 8px;
+    background: #ae81ff;
+}
+
+.caracteristicas-blue h2::before {
+    content: "";
+    display: inline-block;
+    height: 28px;
+    margin-right: 8px;
+    width: 8px;
+    background: #66d9eb;
+}
+
+.caracteristicas h2 {
+    font-size: 2.2rem;
+    color: #a4a4a4;
+    margin-bottom: 16px;
+}
+
+.caracteristicas p {
+    font-size: 1.2rem;
+    color: #a4a4a4;
 }
