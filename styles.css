@@ -10,6 +10,10 @@ body {
     font-style: normal;
 }
 
+body img {
+    max-width: 100%;
+}
+
 /* HEADER */
 
 .header-contato-bg {
@@ -78,4 +82,54 @@ body {
 
 .nav-lista li a:hover {
     color: #122ab2;
+}
+
+/* TITULO */
+
+.titulo {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 8px;
+    font-size: 3rem;
+    line-height: 1;
+    border-bottom: 2px solid #2c70ff;
+}
+
+/* Sobre */
+
+.sobre {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-texto h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-texto p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    color: #a4a4a4;
+    margin-bottom: 12px;
+}
+
+.sobre-texto {
+    flex: 2;
+    margin-right: 16px;
+    min-width: 30ch;
+}
+
+.sobre-img1 {
+    margin-right: 16px;
+    flex: 1;
+    min-width: 160px;
+}
+
+.sobre-img2 {
+    flex: 1;
+    min-width: 160px;
 }
